@@ -1,0 +1,53 @@
+body {
+
+  background: rgb(34,193,195);
+} 
+
+html{
+ box-sizing: border-box;
+ font-siize: 16px;
+}
+
+*, *:before, *:after {
+ box-sizing: inherit;
+}
+
+.navbar {
+  background: rgb(34,193,195);
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.navbar-brand {
+  font-weight: bold; /* Make the logo text bold */
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff; /* Text color for navigation links */
+}
+
+/* Apply styles to the main content */
+.main {
+  max-width: 800px; /* Set a maximum width for the content */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 20px; /* Add some padding around the content */
+}
+
+h1 {
+  color: #333; /* Header text color */
+}
+
+/* Style the browser articles */
+.browser {
+  margin-bottom: 20px; /* Add space between articles */
+}
+
+/* Apply styles to links */
+a {
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Add hover effect to links */
+a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
